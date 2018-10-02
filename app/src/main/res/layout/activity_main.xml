@@ -20,24 +20,28 @@
         android:layout_height="wrap_content"
         android:text="0"
         android:padding="8dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:id="@+id/team_a_score"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+3 Points"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:onClick="show3"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+2 Points"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:onClick="show2"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+ Free Throw"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:onClick="show1"/>
 
 </LinearLayout>
