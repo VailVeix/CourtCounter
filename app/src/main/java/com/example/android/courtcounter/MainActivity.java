@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void reset(View view){
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+    }
+
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
