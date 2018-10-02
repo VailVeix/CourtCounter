@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     public void reset(View view){
         scoreTeamA = 0;
         scoreTeamB = 0;
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
     }
 
     public void displayForTeamA(int score) {
